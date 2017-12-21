@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_latest"
+    android:orientation="vertical"
+    tools:context="com.adfinancegh.aedmoneylending.statLogin">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stat_email_layout"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="300dp"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/stat_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="@string/emailVal"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textIsSelectable="false"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stat_password_layout"
+        android:textColorHint="@color/white"
+        >
+
+        <EditText
+            android:id="@+id/stat_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="@string/passVal"
+            android:imeActionId="@+id/login"
+            android:imeActionLabel="@string/signIn"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/passReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/white"
+        android:text="@string/passReset"
+        android:onClick="resetPassClicked"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/login_sign_in_button"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="16dp"
+        android:imeActionId="@+id/signIn_form_finished"
+        android:imeActionLabel="@string/signIn"
+        android:imeOptions="actionUnspecified"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="signInExistingUser"
+        android:text="@string/signIn"
+        android:textStyle="bold"/>
+        </LinearLayout>
+
+</LinearLayout>

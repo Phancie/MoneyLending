@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:isScrollContainer="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    app:contentPadding="4dp"
+                    app:cardBackgroundColor="@color/lavenderblush"
+                    android:elevation="3dp"
+                    app:cardCornerRadius="12dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        >
+                        <TextView
+                            android:id="@+id/loanPurp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/loanPurpose"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/loanPurpDisp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="@string/loanPurpose"
+                            android:textColor="@color/black"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:textSize="10sp"/>
+
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="20dp">
+
+                        <TextView
+                            android:id="@+id/bank"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/bankname"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/bankDisp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="@string/bankname"
+                            android:textColor="@color/black"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:textSize="10sp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="20dp">
+
+                        <TextView
+                            android:id="@+id/accName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/accName"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/accNameDisp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="@string/accName"
+                            android:textColor="@color/black"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:textSize="10dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="20dp">
+
+                        <TextView
+                            android:id="@+id/accNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/accNo"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/accNoDisp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="@string/accNo"
+                            android:textColor="@color/black"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:textSize="10dp"/>
+
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="20dp">
+
+                        <TextView
+                            android:id="@+id/bankBranch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/bankBranch"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/bankBranchDisp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="@string/bankBranch"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:textSize="10dp"
+                            android:textColor="@color/black"/>
+
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="20dp">
+
+                        <TextView
+                            android:id="@+id/gName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/gurantFullName"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/gNameDisp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="@string/gurantFullName"
+                            android:textColor="@color/black"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:textSize="10dp"/>
+
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="20dp">
+
+
+                        <TextView
+                            android:id="@+id/gDob"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/gDobVal"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/gDobDisp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="@string/gDobVal"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:textSize="10dp"
+                            android:textColor="@color/black"/>
+
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="20dp">
+
+                        <TextView
+                            android:id="@+id/gPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/guarantTelNo"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/gPhoneDisp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="@string/guarantTelNo"
+                            android:textColor="@color/black"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="10dp"
+                            android:textSize="10dp"/>
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/step_four_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_margin="5dip"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center_vertical"
+                            android:padding="10dp"
+                            android:clickable="true"
+                            android:text="@string/edit_data"
+                            android:textSize="12sp"
+                            android:textStyle="italic"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

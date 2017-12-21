@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:id="@+id/faqmItem"
+           android:title="@string/faqmItem"/>
+    <item  android:id="@+id/helpmItem"
+           android:title="@string/helpItem"/>
+    <item  android:id="@+id/aboutmItem"
+           android:title="@string/aboutUsItem"/>
+    <item  android:id="@+id/directionsItem"
+           android:title="@string/directionsItem"/>
+    <item  android:id="@+id/mainMenumItem"
+           android:title="@string/mainMenuItem"/>
+</menu>

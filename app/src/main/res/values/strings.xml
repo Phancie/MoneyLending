@@ -1,0 +1,237 @@
+<resources>
+    <string name="app_name">AeD Finance</string>
+    <string name="applyVal">APPLY</string>
+    <string name="statusVal">Check Loan Status</string>
+    <string name="helpVal">Need assistance? Send us a mail and we would attend to you within 48hrs</string>
+    <string name="emailVal">Email*</string>
+    <string name="passVal">Password*</string>
+    <string name="nameVal">Name*</string>
+    <string name="outVal">Outstanding</string>
+    <string name="amtPaidVal">Amount Paid</string>
+    <string name="lastPayVal">Last Payment</string>
+    <string name="nextPayVal">Next Payment</string>
+    <string name="fname">First Name*</string>
+    <string name="mname">Middle Name</string>
+    <string name="lname">Last Name*</string>
+    <string name="mNumber">Mobile Number*</string>
+    <string name="loanAmt">How much do you want?*</string>
+    <string name="lengthOfLoan">How long do you want it for(max 30 days)?*</string>
+    <string name="rateVal">Rate</string>
+    <string name="interestVal">Interest GH₵</string>
+    <string name="amtVal">Amount GH₵</string>
+    <string name="amtWithoutIntVal">Amount(without interest)GH₵</string>
+    <string name="altMobileNumber">Alternate Mobile Number</string>
+    <string name="dobVal">Date of Birth*</string>
+    <string name="idNumber">ID Number*</string>
+    <string name="residenceVal">Residence Address/Landmark*</string>
+    <string name="postAddr">Postal Address</string>
+    <string name="lengthOfResidence">How long have you lived in your residence(years)?*</string>
+    <string name="companyName">Company Name*</string>
+    <string name="jobTitle">Job Title*</string>
+    <string name="salary">How much do you earn per month(GHS)*</string>
+    <string name="loanPurpose">Loan Purpose</string>
+    <string name="loanDispVal">Loan Details</string>
+    <string name="purpose1">Personal</string>
+    <string name="purpose2">Business</string>
+    <string name="purpose3">Fees</string>
+    <string name="purpose4">Medical</string>
+    <string name="purpose5">Purchase Goods</string>
+    <string name="purpose6">Emergency</string>
+    <string name="accName">Account Name*</string>
+    <string name="gurantFullName">Guarantor\'s Full Name*</string>
+    <string name="passReset">[Forgot Password]</string>
+    <string name="newPass">New Password</string>
+    <string name="gurantMobileNumber">Guarantor\'s Mobile Number*</string>
+    <string name="mainMenu">Check Loan Status</string>
+    <string name="signIn">Sign In</string>
+    <string name="actionNext">Next</string>
+    <string name="personalDetails">Personal Details</string>
+    <string name="idType">ID Type*</string>
+    <string name="genderVal">Gender</string>
+    <string name="location">Where do you live?*</string>
+    <string name="resLandmark">Residence Address/Landmark*</string>
+    <string name="postalAddr">Postal Address</string>
+    <string name="empDetVal">Employment Details</string>
+    <string name="workingPeriod">Working Period*</string>
+    <string name="proceedVal">Proceed</string>
+    <string name="reset">Reset</string>
+    <string name="subj">Subject*</string>
+    <string name="bodyVal">Body*</string>
+    <string name="sendVal">Send</string>
+    <string name="accNo">Account Number*</string>
+    <string name="bankDetDisp">Bank Name*</string>
+    <string name="applyNowVal">GET A NEW LOAN</string>
+    <string name="bankBranch">Bank Branch*</string>
+    <string name="gurantDisp">Guarantor Details</string>
+    <string name="dueDateDisp">Due Date</string>
+    <string name="nextVal">Next</string>
+    <string name="loan_status">Unreceived</string>
+    <string name="full_name">Full Name</string>
+    <string name="payDay">Length Of Payment(Days)</string>
+    <string name="status">Status</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_amount">Enter the amount you want</string>
+    <string name="err_msg_days">Enter the number of days for payment</string>
+    <string name="err_msg_amount_max">Sorry maximum loan amount is GH₵300</string>
+    <string name="err_msg_amount_min">Sorry minimum amount of loan amount is GH₵50</string>
+    <string name="err_msg_days_min">Sorry minimum number is 1day</string>
+    <string name="err_msg_days_max">Sorry maximum number of days for payment is 30days</string>
+    <string name="err_msg_fname">Enter your first name</string>
+    <string name="err_msg_lname">Enter your last name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_invalid_length_Of_Res">Invalid length of residence.</string>
+    <string name="err_msg_login">Invalid email/password</string>
+    <string name="err_msg_telno">Enter your phone number</string>
+    <string name="err_msg_tellength">Enter a valid telephone number</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="err_length_msg_password">Password too short</string>
+    <string name="err_msg_location">Enter your current location</string>
+    <string name="err_dob_msg">Choose your date of birth</string>
+    <string name="err_dob_valid_msg">Loan is accessible to only legal adults</string>
+    <string name="err_job_msg">Enter your current job title</string>
+    <string name="err_compName_msg">Enter the name of your company</string>
+    <string name="err_length_Of_Res">Enter how long you have been living in your current residence(years)?*</string>
+    <string name="err_msg_tel_similar">Phone number has already been used</string>
+    <string name="err_guarant_dob_msg">Choose guarantor\'s date of birth</string>
+    <string name="err_guarant_dob_valid_msg">Guarantor must be at least 18years old</string>
+    <string name="err_msg_guarant_name">Enter guarantor\'s full name</string>
+    <string name="err_msg_acc_name">Enter account name</string>
+    <string name="err_msg_acc_no">Enter account number</string>
+    <string name="err_msg_bank_branch">Enter your bank branch</string>
+    <string name="err_msg_loan_purpose">Choose loan purpose</string>
+    <string name="err_msg_acc_no_valid">Enter a valid account number</string>
+    <string name="err_id_no_msg">Enter the ID Number</string>
+    <string name="err_msg_salary">Enter your monthly salary</string>
+    <string name="err_msg_multiple_of_fifty">Loan amount must be a must be a multiple of 50</string>
+    <string name="err_salary">Loan requested can\'t be more than 40% of your salary</string>
+    <string name="guarantTelNo">Guarantor\'s Number*</string>
+    <string name="dueDate">Due Date</string>
+    <string name="greetMorning">Good Morning</string>
+    <string name="greetAfternoon">Good Afternoon</string>
+    <string name="greetEvening">Good Evening</string>
+    <string name="greetNight">Good Night</string>
+    <string name="aboutHead">About AeD Finance</string>
+    <string name="faqmItem">FAQ</string>
+    <string name="helpItem">Help</string>
+    <string name="aboutUsItem">About Us</string>
+    <string name="mainMenuItem">Main Menu</string>
+    <string name="quest1Val">Is AeD authorized to provide loans in Ghana?</string>
+    <string name="ans1Val">Yes. AeD is licensed by the Bank of Ghana to provide loans and a member of the Micro Credit Association of Ghana(MCAG).</string>
+    <string name="quest2Val">What are the charges to use AeD?</string>
+    <string name="ans2Val">There are no upfront fees for using the AeD mobile app or applying for an AeD Facility. Any fees associated with the loan will be disclosed to the customer prior to accepting a loan and are paid only after you get your money.</string>
+    <string name="quest3Val">What can I use the AeD facility for?</string>
+    <string name="ans3Val">AeD facility is a flexible solution intended to overcome temporary cash shortfalls. Customers can use the proceeds for any purpose, with the exception of illegal activity.</string>
+    <string name="quest4Val">What are the eligibility requirements?</string>
+    <string name="ans4Val">To qualify for an AeD Facility, you must meet the following criteria: \n-One of the following: Drivers License, NHIS Membership, Voter ID, National ID or Passport
+    \n-Bank customers: Original bank statement for valid deposit account with a commercial bank in Ghana
+    \n-Ghana resident over 18 years of age\n-A Guarantor in Ghana resident over 18 years of age\n-Mobile phone with internet connection
+    </string>
+    <string name="quest5Val">How long does it take to approve my request?</string>
+    <string name="ans5Val">Under normal circumstances, our system will be able to provide a credit decision within just a few minutes of submitting your application. You will be notified of the decision through the mobile application so be sure to look in the \'Check Status\' menu option after submission.</string>
+    <string name="quest6Val">My request was approved. What do I have to do next?</string>
+    <string name="ans6Val">First time customers of AeD will be required to verify their identity,guarantor and bank or mobile money account at our branch offices prior to formally accepting the loan offer.</string>
+    <string name="quest7Val">Where and when will my AeD Facility be paid?</string>
+    <string name="ans7Val">Once you have been approved for a loan and completed all the necessary steps, AeD will deposit the money into your bank or mobile money account. It will take approximately one business day to complete the transfer and we will notify you of the transfer.</string>
+    <string name="quest8Val">How will I repay the AeD Facility?</string>
+    <string name="ans8Val">When the loan and interest become due according to your loan agreement, AeD will automatically draw the funds directly from your bank or mobile money account under the Direct Debit Mandate you have signed.</string>
+    <string name="quest9Val">What will happen if I can\'t repay the AeD Facility on-time?</string>
+    <string name="ans9Val">Please contact us with any issues related to the repayment of your AeD Facility. Customers will incur additional penalties for late repayments. AeD reserves the right to take any legal action to recover outstanding debts and report delinquent borrowers to the appropriate agencies and/or authorities.</string>
+    <string name="aboutUs">AeD Capital Micro-Credit Services is a financial institution based in Accra, Ghana and licensed by Bank of Ghana and a member of the Micro Credit Association of Ghana(MCAG). AeD Capital provides fast and easy short-term loans, called AeD Facility. Our customers can apply for an AeD Facility directly from their own mobile device or in AeD\'s branch and receive a credit decision within minutes. The loan is available to salaried, contracted and self-employed professionals. No collateral required - just a one-time verification of ID , bank account and a single guarantor is necessary before disbursement. Our customers can receive their cash within 1 business day.</string>
+    <string name="payDisp">Where do you want to receive and pay the money?</string>
+    <string name="help">Need assistance?Call us on 0262329600 or send us a mail and we would attend to you within 48 hours</string>
+    <string name="reminderVal">Please be reminded that failure to complete payment on due date may result in penalty charges</string>
+    <string name="congratsVal">Congratulations…\nYour request for loan has been received.You would be notified when your loan request is approved.Use \'Get Directions\' in main menu to locate our office.</string>
+    <string name="histVal">Choose if you are a new or returning customer</string>
+    <string name="lengthOfResDisp">How Long You Have Lived In Your Current Residence(yrs)*</string>
+    <string name="gDobVal">Guarantor\'s Date Of Birth*</string>
+    <string name="locationDisp">Location*</string>
+    <string name="maritalVal">Marital Status</string>
+    <string name="salaryDisp">Salary(GH₵)*</string>
+    <string name="newCust">New Customer</string>
+    <string name="retCust">Returning Customer</string>
+    <string name="signUpVal">Register</string>
+    <string name="logInVal">Login</string>
+    <string name="newLoanVal">Get A New Loan</string>
+    <string name="tab1Val">Account Details</string>
+    <string name="tab2Val">Personal Details</string>
+    <string name="tab3Val">Other Details</string>
+    <string name="directionsItem">Get Directions</string>
+    <string name="noname">(No Name)</string>
+    <string name="nonum">(No Number)</string>
+    <string name="nopost">(No Post Address)</string>
+    <string name="bankname">Bank Name</string>
+    <string name="approval">Approved</string>
+    <string name="duedateMsg">Awaiting</string>
+    <string name="err_msg_amount_max_on_return">Maximum amount loan amount is GH₵500</string>
+    <string name="edit_data">Change these details</string>
+    <string name="update_data">UPDATE</string>
+    <string name="emailReset">[Change Email]</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="maritalStatus">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widow/Widower</item>
+    </string-array>
+
+    <string-array name="id">
+        <item>Voters\'</item>
+        <item>Passport</item>
+        <item>NHIS</item>
+        <item>NIA</item>
+    </string-array>
+
+    <string-array name="workingTime">
+        <item>Full time</item>
+        <item>Part time</item>
+        <item>Contract</item>
+        <item>Internship</item>
+    </string-array>
+
+    <string-array name="banks">
+        <item>Access Bank Ghana Limited</item>
+        <item>ADB Bank Limited</item>
+        <item>Bank of Africa Ghana Limited</item>
+        <item>Bank of Baroda Ghana Limited</item>
+        <item>BSIC Ghana Limited</item>
+        <item>Barclays Bank of Ghana Limited</item>
+        <item>CAL Bank Limited</item>
+        <item>Ecobank Ghana Limited</item>
+        <item>Energy Bank Ghana Limited</item>
+        <item>FBN Bank Ghana Limited </item>
+        <item>First International Bank</item>
+        <item>Fidelity Bank Ghana Limited</item>
+        <item>First Atlantic Bank Limited</item>
+        <item>First National Bank Ghana Limited</item>
+        <item>GCB Bank Limited</item>
+        <item>GN Bank Limited</item>
+        <item>Guaranty Trust Bank Ghana Limited</item>
+        <item>Heritage Bank Ghana Limited</item>
+        <item>HFC Bank Ghana Limited</item>
+        <item>National Investment Bank Limited</item>
+        <item>Omni bank limited</item>
+        <item>Premium bank limited</item>
+        <item>Prudential Bank Limited</item>
+        <item>SG-SSB</item>
+        <item>Sovereign Bank Ghana Limited</item>
+        <item>Stanbic Bank Ghana Limited</item>
+        <item>Standard Chartered Bank Ghana Limited</item>
+        <item>The Royal Bank Limited</item>
+        <item>UniBank Ghana Limited</item>
+        <item>Union Savings and Loan Bank</item>
+        <item>United Bank for Africa Ghana Limited</item>
+        <item>Universal Merchant Bank Ghana Limited</item>
+        <item>Zenith Bank Ghana</item>
+
+    </string-array>
+    <string name="title_activity_status_main_tab">AeD Account</string>
+    <string name="action_log_out">Logout</string>
+    <string name="action_main_menu">Main Menu</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_dummy">DummyActivity</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "69601351484",
+    "firebase_url": "https://flashchatandroid-f5fa2.firebaseio.com",
+    "project_id": "flashchatandroid-f5fa2",
+    "storage_bucket": "flashchatandroid-f5fa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69601351484:android:d8d8907d99f3a9e2",
+        "android_client_info": {
+          "package_name": "com.rollxreuben.flashchatnewfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69601351484-0po52363fif76q5mscd74d2e0mrj2pkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXq1wS4rp9iH-wC68pi72XFYUx-SyTDjs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69601351484:android:f7ad237d61895cc3",
+        "android_client_info": {
+          "package_name": "com.adfinancegh.aedmoneylending"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69601351484-0po52363fif76q5mscd74d2e0mrj2pkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXq1wS4rp9iH-wC68pi72XFYUx-SyTDjs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
